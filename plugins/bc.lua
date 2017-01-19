@@ -1,3 +1,5 @@
+--@deve_poent
+--@DEV_s_o
 local function run(msg, matches)
 
 	if matches[1] == 'bc' and is_sudo(msg) then
@@ -24,3 +26,5 @@ return {
   run = run
 
 }
+--@deve_poent
+--@DEV_s_o
