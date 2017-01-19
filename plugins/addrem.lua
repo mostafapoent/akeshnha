@@ -1,3 +1,5 @@
+--@deve_poent
+--@DEV_s_o
 local function addgroup(msg)
 local group = load_data('bot/group.json')
 local groupa = group[tostring(msg.chat_id)]
@@ -60,3 +62,5 @@ return {
   },
   run = run
 }
+--@deve_poent
+--@DEV_s_o
