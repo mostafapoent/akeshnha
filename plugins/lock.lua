@@ -1,3 +1,5 @@
+--@deve_poent
+--@DEV_s_o
 local function settings(msg, target,group)
 local group = load_data('bot/group.json')
 pm = '🔧SuperGroup settings 🔧'
@@ -519,3 +521,5 @@ return {
   },
   run = run
 }
+--@deve_poent
+--@DEV_s_o
