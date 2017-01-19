@@ -1,3 +1,5 @@
+--@deve_poent
+--@DEV_s_o
 local function run(msg, matches)
 if matches[1] == 'id'  then
 tg.sendMessage(msg.chat_id, msg.id_, 1, 'your id : ['..msg.from_id..']️', 1)
@@ -33,3 +35,5 @@ return {
   },
   run = run
 }
+--@deve_poent
+--@DEV_s_o
