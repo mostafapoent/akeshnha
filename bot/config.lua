@@ -7,7 +7,7 @@ do local _ = {
     "rank",
     "msg_checks",
     "help",
-    "id",
+    "tools",
   },
   group  = {
     data = "bot/group.json"
